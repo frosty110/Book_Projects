@@ -32,20 +32,19 @@ def number_of_friends(user):
 
 total_connections = sum(number_of_friends(user) for user in users)        # 24
 
-#Since there aren’t very many users, we can sort them from “most friends” to “least friends”:
+# Since there arent very many users, we can sort them from most friends to least friends
 # create a list (user_id, number_of_friends)
-num_friends_by_id = [(user["id"], number_of_friends(user))
-                     for user in users]
+num_friends_by_id = [(user["id"], number_of_friends(user)) for user in users]
 
 sorted(num_friends_by_id,                                # get it sorted
-       key=lambda (user_id, num_friends): num_friends,   # by num_friends
+       key=lambda userid_numfriends: num_friends_by_id[1],   # by num_friends
        reverse=True)                                     # largest to smallest
 
 # each pair is (user_id, num_friends)
 # [(1, 3), (2, 3), (3, 3), (5, 3), (8, 3),
 #  (0, 2), (4, 2), (6, 2), (7, 2), (9, 1)]
 
-#  for each of a user’s friends, iterate over that person’s friends, and collect all the results:
+#  for each of a users friends, iterate over that person's friends and collect all the results
 def friends_of_friend_ids_bad(user):
     # "foaf" is short for "friend of a friend"
     return [foaf["id"]
@@ -74,7 +73,7 @@ def friends_of_friend_ids(user):
                    if not_the_same(user, foaf)      # who aren't me
                    and not_friends(user, foaf))     # and aren't my friends
 
-print friends_of_friend_ids(users[3])               # Counter({0: 2, 5: 1}) Id 0 has 2 friends in common. Id 5 has 1 friend in common
+print(friends_of_friend_ids(users[3]))               # Counter({0: 2, 5: 1}) Id 0 has 2 friends in common. Id 5 has 1 friend in common
 
 ########################################################################################
 
