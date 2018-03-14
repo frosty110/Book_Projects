@@ -1,3 +1,6 @@
 # pycharm IDE
 .idea/
-env/
+*env/
+*__pycache__/
+*.ipynb_checkpoints/
+ Data Science From Scatch/__pycache__/
