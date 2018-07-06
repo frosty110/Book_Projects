@@ -1,0 +1,311 @@
+<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel">
+ 	<Styles>
+		<Style ss:ID="s1">
+	 	<Alignment></Alignment>
+	 	<Borders></Borders>
+	 	<Font ss:Bold="1"></Font>
+	 	<Interior></Interior>
+	 	<NumberFormat></NumberFormat>
+	 	<Protection></Protection>
+	 	</Style>
+ 	</Styles>
+ 	<Worksheet ss:Name="Report">
+ 		<Table x:FullColumns="1" x:FullRows="1">
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Column ss:Width="100"></Column>
+ 			<Row>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Errors</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Line</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Ordered Date/Time</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Product</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Product Description</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Agreement</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Pricebook</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Pricing UOM</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Selling UOM</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Unit Price</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Quantity Ordered</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Need Date</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Ship From Location</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Fulfillment Source</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Discount Amount</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Discount Percent</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Allowances</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Extended Price</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Sales Tax Rate</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Sales Tax Amount</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Status</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Work Order</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">GL Account</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Company</Data></Cell>
+ 				<Cell ss:StyleID="s1"><Data ss:Type="String">Project Segment</Data></Cell>
+ 			</Row>
+				 <Row>
+				 	<Cell><Data ss:Type="String">[Cannot close sales order line with quantity allocated greater than zero.]</Data></Cell>
+				 	<Cell><Data ss:Type="Number">9</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/25/2018 4:31 PM</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Orange Pricebook</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">EA</Data></Cell>
+				 	<Cell><Data ss:Type="Number">3.500000</Data></Cell>
+				 	<Cell><Data ss:Type="Number">95.000000</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/29/2018</Data></Cell>
+				 	<Cell><Data ss:Type="String">Stock</Data></Cell>
+				 	<Cell><Data ss:Type="String">Inventory</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">332.50</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Open</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 </Row>
+				 <Row>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">8</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/25/2018 4:31 PM</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Orange Pricebook</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">EA</Data></Cell>
+				 	<Cell><Data ss:Type="Number">3.500000</Data></Cell>
+				 	<Cell><Data ss:Type="Number">97.000000</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/26/2018</Data></Cell>
+				 	<Cell><Data ss:Type="String">Stock</Data></Cell>
+				 	<Cell><Data ss:Type="String">Inventory</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">339.50</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Open</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 </Row>
+				 <Row>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">7</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/25/2018 4:30 PM</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Orange Pricebook</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">EA</Data></Cell>
+				 	<Cell><Data ss:Type="Number">3.500000</Data></Cell>
+				 	<Cell><Data ss:Type="Number">98.000000</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/26/2018</Data></Cell>
+				 	<Cell><Data ss:Type="String">Stock</Data></Cell>
+				 	<Cell><Data ss:Type="String">Inventory</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">343.00</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Open</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 </Row>
+				 <Row>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">6</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/25/2018 4:30 PM</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Orange Pricebook</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">EA</Data></Cell>
+				 	<Cell><Data ss:Type="Number">3.500000</Data></Cell>
+				 	<Cell><Data ss:Type="Number">99.000000</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/29/2018</Data></Cell>
+				 	<Cell><Data ss:Type="String">Stock</Data></Cell>
+				 	<Cell><Data ss:Type="String">Inventory</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">346.50</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Open</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 </Row>
+				 <Row>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">5</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/25/2018 4:10 PM</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Orange Pricebook</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">EA</Data></Cell>
+				 	<Cell><Data ss:Type="Number">3.500000</Data></Cell>
+				 	<Cell><Data ss:Type="Number">15.000000</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Stock</Data></Cell>
+				 	<Cell><Data ss:Type="String">Inventory</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">52.50</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Open</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 </Row>
+				 <Row>
+				 	<Cell><Data ss:Type="String">[Cannot close sales order line with quantity allocated greater than zero.]</Data></Cell>
+				 	<Cell><Data ss:Type="Number">4</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/25/2018 4:10 PM</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Orange Pricebook</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">EA</Data></Cell>
+				 	<Cell><Data ss:Type="Number">3.500000</Data></Cell>
+				 	<Cell><Data ss:Type="Number">9.000000</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Stock</Data></Cell>
+				 	<Cell><Data ss:Type="String">Inventory</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">31.50</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Open</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 </Row>
+				 <Row>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">3</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/25/2018 4:08 PM</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Orange Pricebook</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">EA</Data></Cell>
+				 	<Cell><Data ss:Type="Number">3.500000</Data></Cell>
+				 	<Cell><Data ss:Type="Number">7.000000</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Stock</Data></Cell>
+				 	<Cell><Data ss:Type="String">Inventory</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">24.50</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Open</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 </Row>
+				 <Row>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">2</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/25/2018 4:07 PM</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Orange Pricebook</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">EA</Data></Cell>
+				 	<Cell><Data ss:Type="Number">3.500000</Data></Cell>
+				 	<Cell><Data ss:Type="Number">10.000000</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Stock</Data></Cell>
+				 	<Cell><Data ss:Type="String">Inventory</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">35.00</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Open</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 </Row>
+				 <Row>
+				 	<Cell><Data ss:Type="String">[Cannot close sales order line with quantity allocated greater than zero.]</Data></Cell>
+				 	<Cell><Data ss:Type="Number">1</Data></Cell>
+				 	<Cell><Data ss:Type="String">4/25/2018 4:07 PM</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Product-10</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Poro Poro Co. Orange Pricebook</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">EA</Data></Cell>
+				 	<Cell><Data ss:Type="Number">3.500000</Data></Cell>
+				 	<Cell><Data ss:Type="Number">5.000000</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Stock</Data></Cell>
+				 	<Cell><Data ss:Type="String">Inventory</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number">17.50</Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="Number"></Data></Cell>
+				 	<Cell><Data ss:Type="String">Open</Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 	<Cell><Data ss:Type="String"></Data></Cell>
+				 </Row>
+ 		</Table>
+ 	</Worksheet>
+ </Workbook>
